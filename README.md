@@ -1,0 +1,2 @@
+# CommonAdapter
+基于hongyangAndroid的baseAdapter进行拓展,增加如DataBinding,Glide的支持
