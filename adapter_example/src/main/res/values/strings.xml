@@ -1,3 +1,4 @@
 <resources>
+    <item name="position" type="id"/>
     <string name="app_name">BaseAdapterAndBinding</string>
 </resources>

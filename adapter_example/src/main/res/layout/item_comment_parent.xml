@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.beyondin.baseadapterandbinding.CommentModel"/>
+
+
+        <variable
+            name="comemntModel"
+            type="CommentModel"/>
+
+        <variable
+            name="imageUtil"
+            type="com.beyondin.baseadapterandbinding.ImageUtil"/>
+
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imgHead"
+            android:layout_width="50dp"
+            app:imgurl="@{imageUtil.url}"
+            android:layout_height="50dp"
+            android:background="#7d3"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imgHead"
+            android:gravity="center"
+            android:text="@{comemntModel.name}"
+            android:textColor="#666"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/txtFlag"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/txtName"
+            android:background="#7d3"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtName"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imgHead"
+            android:gravity="left|center_vertical"
+            android:text="@{comemntModel.content}"
+            android:textColor="#999"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+</layout>

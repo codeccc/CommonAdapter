@@ -11,6 +11,7 @@ import com.zhy.adapter.recyclerview.utils.WrapperUtils;
 
 /**
  * Created by zhy on 16/6/23.
+ * update by codeccc on 17/6/28
  */
 public class EmptyWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 {

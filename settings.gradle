@@ -1,1 +1,1 @@
-include ':app', ':baseadapter-recyclerview'
+include ':adapter_example', ':baseadapter-recyclerview', ':commonadapter-binding'

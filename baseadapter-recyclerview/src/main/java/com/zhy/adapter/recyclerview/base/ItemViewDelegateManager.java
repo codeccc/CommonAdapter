@@ -5,6 +5,7 @@ import android.support.v4.util.SparseArrayCompat;
 
 /**
  * Created by zhy on 16/6/22.
+ * update by codeccc on 17/6/28
  */
 public class ItemViewDelegateManager<T>
 {

@@ -1,10 +1,9 @@
 package com.zhy.adapter.recyclerview.base;
 
 
-import android.view.View;
-
 /**
  * Created by zhy on 16/6/22.
+ * update by codeccc on 17/6/28
  */
 public interface ItemViewDelegate<T>
 {

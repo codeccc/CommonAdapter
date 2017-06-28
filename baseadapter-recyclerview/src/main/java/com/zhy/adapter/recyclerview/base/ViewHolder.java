@@ -20,6 +20,10 @@ import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+/**
+ * Created by zhy on 16/6/22.
+ * update by codeccc on 17/6/28
+ */
 public class ViewHolder extends RecyclerView.ViewHolder
 {
     private SparseArray<View> mViews;
@@ -33,7 +37,6 @@ public class ViewHolder extends RecyclerView.ViewHolder
         mConvertView = itemView;
         mViews = new SparseArray<View>();
     }
-
 
     public static ViewHolder createViewHolder(Context context, View itemView)
     {

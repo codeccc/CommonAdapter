@@ -2,7 +2,6 @@ package com.zhy.adapter.recyclerview;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import android.view.View;
 
 import com.zhy.adapter.recyclerview.base.ItemViewDelegate;
 import com.zhy.adapter.recyclerview.base.ViewHolder;
@@ -11,8 +10,9 @@ import java.util.List;
 
 /**
  * Created by zhy on 16/4/9.
+ * update by codeccc on 17/6/28
  */
-public abstract class CommonAdapter<T> extends MultiItemTypeAdapter<T>
+public abstract class CommonAdapter<T,ViewDataBinding extends android.databinding.ViewDataBinding> extends MultiItemTypeAdapter<T,ViewDataBinding>
 {
     protected Context mContext;
     protected int mLayoutId;

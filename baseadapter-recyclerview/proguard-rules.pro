@@ -17,9 +17,18 @@
 #}
 # copyright zhonghanwen
 #-------------------------------
+-optimizationpasses 5
+-dontskipnonpubliclibraryclassmembers
+-printmapping proguardMapping.txt
+-optimizations !code/simplification/cast,!field/*,!class/merging/*
+-keepattributes *Annotation*,InnerClasses
+-keepattributes Signature
+-keepattributes SourceFile,LineNumberTable
 
 -keep class com.zhy.adapter.recyclerview.base.**{*;}
 -keep class com.zhy.adapter.recyclerview.utils.**{*;}
 -keep class com.zhy.adapter.recyclerview.wrapper.**{*;}
 -keep class com.zhy.adapter.recyclerview.**{*;}
 -keep interface com.zhy.adapter.recyclerview.base.**
+
+-keep public class * extends android.support.v7.**

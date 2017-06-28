@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BaseAdapterAndBinding.iml" filepath="$PROJECT_DIR$/BaseAdapterAndBinding.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapter_example/adapter_example.iml" filepath="$PROJECT_DIR$/adapter_example/adapter_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/baseadapter-recyclerview/baseadapter-recyclerview.iml" filepath="$PROJECT_DIR$/baseadapter-recyclerview/baseadapter-recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonadapter-binding/commonadapter-binding.iml" filepath="$PROJECT_DIR$/commonadapter-binding/commonadapter-binding.iml" />
     </modules>
   </component>
 </project>

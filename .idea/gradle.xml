@@ -8,8 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/adapter_example" />
             <option value="$PROJECT_DIR$/baseadapter-recyclerview" />
+            <option value="$PROJECT_DIR$/commonadapter-binding" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
